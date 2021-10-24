@@ -1,5 +1,6 @@
 import os
 import logging
+import random
 from pyrogram import Client, filters
 from pyrogram import StopPropagation
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
@@ -45,11 +46,11 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**Please Join My Fore Sub Channel/Group to use this Bot!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                                InlineKeyboardButton("Join Fore Sub Channel/Group", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -84,10 +85,10 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ Deploy Now 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('My Dev', url='https://t.me/stephennedumpally')
                     ],
                     [
-                        InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
+                        InlineKeyboardButton('Search again 🔎', switch_inline_query_current_chat='')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -102,17 +103,18 @@ async def start(bot, message):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Please Join My Fore Sub Channel/Group to use this Bot!**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                        InlineKeyboardButton("Join Fore Sub Channel/Group", url=invite_link.invite_link)
                     ]
                 ]
             )
         )
     else:
-        await message.reply_text(
+        await message.reply_photo(
+            photo=(random.choice[])
             START_MSG.format(message.from_user.first_name),
             parse_mode="Markdown",
             disable_web_page_preview=True,
@@ -125,7 +127,7 @@ async def start(bot, message):
                             ),
                         InlineKeyboardButton
                             (
-                                "🤖More Botz", url="https://t.me/MT_Botz"
+                                "My Dev 😎", url="https://t.me/stephennedumpally"
                             )
                     ],
                     [
@@ -136,6 +138,10 @@ async def start(bot, message):
                         InlineKeyboardButton
                             (
                                 "About🤠", callback_data="about"
+                            ),
+                        InlineKeyboardButton
+                            (
+                                "➕ Add me to your Group", url="https://"
                             )
                     ]
                 ]
@@ -348,7 +354,7 @@ async def bot_info(bot, message):
         [
             InlineKeyboardButton
                 (
-                     'Video', url=f'{TUTORIAL}'
+                     'My Dev', url='https://t.me/stephennedumpally'
                 )
         ]
     ]
