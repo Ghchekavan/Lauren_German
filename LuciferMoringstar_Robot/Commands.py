@@ -114,7 +114,8 @@ async def start(bot, message):
         )
     else:
         await message.reply_photo(
-            photo=(random.choice[])
+            photo=(random.choice([
+            photo=(random.choice(["https://telegra.ph/file/94702fb5a238751b2e8ef.jpg", "https://telegra.ph/file/fe129f1ac0e2157db4be0.jpg", "https://telegra.ph/file/7b5dd4135ef47756cefb5.jpg", "https://telegra.ph/file/175cba03338cd2d282db9.jpg", "https://telegra.ph/file/f4093829f257fc3001eb3.jpg", "https://telegra.ph/file/d900344cb2b9d88168cd6.jpg", "https://telegra.ph/file/1d0c84814e935108cf2d3.jpg", "https://telegra.ph/file/67641257c8e4eb5534c8a.jpg", "https://telegra.ph/file/0bc486669e91ee6f936b1.jpg"]))
             START_MSG.format(message.from_user.first_name),
             parse_mode="Markdown",
             disable_web_page_preview=True,
