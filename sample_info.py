@@ -23,10 +23,15 @@ COLLECTION_NAME = 'channel_files'  # If you are using the same database, then us
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**𝐘𝐨..𝐘𝐨.. {} 🙋, 
 
-Here you can search files in inline mode. Just press follwing buttons and start searching.
+I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter Bot In Your Group ..
+
+Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...🤓
+
+⚠️More Help Check Help Button Below**
+
+©️MᴀɪɴᴛᴀɪɴᴇD Bʏ [Jᴏᴇʟ](https://t.me/stephennedumpally)
 """
-
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
 INVITE_MSG = 'Please join @.... to use this bot'
