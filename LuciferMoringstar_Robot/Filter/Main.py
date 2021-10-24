@@ -292,7 +292,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [[
                 InlineKeyboardButton('My Dev 😎', url='t.me/stephennedumpally'),
-                InlineKeyboardButton('Source Code', url="t.me/adhavabiriyanikittiyalo")
+                InlineKeyboardButton('Source Code', url="https://t.me/AdhavaaBiriyaniKittiyalo")
                 ],[
                 InlineKeyboardButton('How to use me 🤔', url='t.me/'),
                 InlineKeyboardButton ('About 🤠', callback_data='about')
@@ -303,7 +303,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('My Dev 😎', url='t.me/stephennedumpally'),
-                    InlineKeyboardButton('Source Code', url="t.me/adhavabiriyanikittiyalo")
+                    InlineKeyboardButton('Source Code', url="https://t.me/AdhavaaBiriyaniKittiyalo")
                 ],[
                     InlineKeyboardButton('How to use me 🤔', url='t.me/'),
                     InlineKeyboardButton ('Help ⚙️', callback_data='help')
@@ -314,12 +314,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('My Dev 😎', url='t.me/stephennedumpally'),
-                    InlineKeyboardButton('Source Code', url="t.me/adhavabiriyanikittiyalo")
+                    InlineKeyboardButton('Source Code', url="https://t.me/AdhavaaBiriyaniKittiyalo")
                 ],[
                     InlineKeyboardButton('How to use me 🤔', url='t.me/'),
                     InlineKeyboardButton ('Help ⚙️', callback_data='help')
                 ],[
-                    InlineKeyboardButton ('➕ Add me to your Group', url='')
+                    InlineKeyboardButton ('➕ Add me to your Group', url='https://t.me/lauren_german_bot?startgroup=true')
                 ]
                 ]
             await query.message.edit(text=f"{START_MSG}".format(TUTORIAL), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
