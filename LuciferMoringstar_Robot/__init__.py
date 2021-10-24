@@ -11,25 +11,46 @@ from .Channel import (
 )
 
 HELP = """
-<b><u>Basic Commads</u></b>
+🙋 Hᴇʟᴏᴏᴏ {} {message.from_user.mention}
 
-➥ /start : check if am alive or dead
-➥ /about : About Me
-➥ /stats user Status
+○ Iᴛs Nᴏᴛ Cᴏᴍᴘʟɪᴄᴀᴛᴇᴅ...🤓
 
-<b><u>Bot Owner Only</u></b>
+○ Sᴇᴀʀᴄʜ ᴜsɪɴɢ ɪɴʟɪɴᴇ ᴍᴏᴅᴇ
 
-➥ /broadcast Replay Any Message or Media
-➥ /ban_user  click ban_user more info
-➥ /unban_user click unban_user more info
-➥ /banned_users Banned User Details
-➥ /total How Many Files Added In Database
-➥ /logger  Get Logs
-➥ /delete Delete File From Database
+   Tʜɪs ᴍᴇᴛʜᴏᴅ ᴡᴏʀᴋs ᴏɴ ᴀɴʏ ᴄhᴀᴛ, Jᴜsᴛ ᴛʏᴘᴇ @TT_MovieBot
+   ᴀɴᴅ ᴛʜᴇɴ ʟᴇᴀᴠᴇ ᴀ sᴘᴀᴄᴇ ᴀɴᴅ sᴇᴀʀᴄʜ ᴀɴʏ ᴍᴏᴠɪᴇ ʏᴏᴜ ɴᴇᴇᴅ...
 
-<b>[➡️How To Add Old Files For database](https://youtu.be/mtu5hgW-l_o)
+○ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs
 
-@Mo_Tech_YT></b>
+/start - Cʜᴇᴄᴋ Iᴍ Aʟɪᴠᴇ...😊
+
+/help - Kɴᴏᴡ Cᴏᴍᴍᴀɴᴅs🤔
+
+/about - Kɴᴏᴡ Aʙᴏᴜᴛ Mᴇ😎
+
+/logger - Tᴏ Gᴇᴛ Lᴏɢs📃
+
+/total - Tᴏ ᴋɴᴏᴡ ᴛᴏᴛᴀʟ ғɪʟᴇs ɪɴ ᴅᴀᴛᴀʙᴀsᴇ
+
+/broadcast - Tᴏ Bʀᴏᴀᴅᴄᴀsᴛ
+
+/stats - Tᴏ Kɴᴏᴡ Usᴇʀ Sᴛᴀᴛᴜs
+
+/ban_user - Bᴀɴ A Usᴇʀ
+
+/unban_user - Uɴʙᴀɴ A Usᴇʀ
+
+/banned_users - Kɴᴏᴡ Bᴀɴɴᴇᴅ Usᴇʀs
+
+/delete - Dᴇʟᴇᴛᴇ Fɪʟᴇ Fʀᴏᴍ Dᴀᴛᴀʙᴀsᴇ
+
+○ Nᴏᴛɪᴄᴇ📙:-
+
+Nᴏᴛʜɪɴɢ Tᴏ Sᴀʏ
+
+○ Dᴏɴᴛ Sᴘᴀᴍ Mᴇ...🤒
+
+©Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ [Jᴏᴇʟ](https://t.me/stephennedumpally)
 """
 
 ABOUT = """
