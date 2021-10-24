@@ -9,7 +9,7 @@ from .Channel import (
    GENRES
 )
 
-START_MSG = """
+START_MSG = '''
 ​𝐘𝐨..𝐘𝐨.. {} 🙋, 
 I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter Bot In Your Group ..
 
@@ -18,8 +18,8 @@ Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provid
 ⚠️More Help Check Help Button Below
 
 ©️MᴀɪɴᴛᴀɪɴᴇD Bʏ [Jᴏᴇʟ](https://t.me/stephennedumpally)
-"""
-HELP = """
+'''
+HELP = '''
 ​𝐘𝐨..𝐘𝐨.. {} 🙋, 
 ○ Iᴛs Nᴏᴛ Cᴏᴍᴘʟɪᴄᴀᴛᴇᴅ...🤓
 
@@ -60,9 +60,9 @@ Nᴏᴛʜɪɴɢ Tᴏ Sᴀʏ
 
 ©Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ [Jᴏᴇʟ](https://t.me/stephennedumpally)
 
-"""
+'''
 
-ABOUT = """
+ABOUT = '''
 ○ Nᴀᴍᴇ :  Lᴀᴜʀᴇɴ Gᴇʀᴍᴀɴ
     
 ○ Mʏ Dᴇᴠ 😎 : [Jᴏᴇʟ](https://t.me/stephennedumpally)
@@ -79,4 +79,4 @@ ABOUT = """
 
 ○ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : [Cʟɪᴄᴋ Hᴇʀᴇ](https://t.me/AdhavaaBiriyaniKittiyalo)
 
-"""
+'''
