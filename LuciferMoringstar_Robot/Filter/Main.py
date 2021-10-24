@@ -55,7 +55,8 @@ async def filter(client, message):
         search = message.text
         mo_tech_yt = f"**🗂️ Query:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title}**"
         files = await get_filter_results(query=search)
-        for file in files:
+        if file:
+            for file in files:
                 file_id = file.file_id
                 file_name = file.file_name
                 file_size = get_size(file.file_size)
@@ -123,10 +124,12 @@ async def group(client, message):
         if files:
             for file in files:
                 file_id = file.file_id
-                filename = f"[{get_size(file.file_size)}] {file.file_name}"
-                btn.append(
-                    [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}")]
-                )
+                file_name = file.file_name
+                file_size = get_size(file.file_size)
+                file_link = f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}"
+                btn.append([
+                            InlineKeyboardButton(text=f'{file_name}', url=f'{file_link}'),
+                            InlineKeyboardButton(text=f'{file_size}', url=f'{file_link}')])
         else:
             LuciferMoringstar=await client.send_message(
             chat_id = message.chat.id,
