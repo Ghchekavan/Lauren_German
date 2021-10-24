@@ -35,9 +35,15 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hi, I'm Auto Filter V3**
+**𝐘𝐨..𝐘𝐨.. {} 🙋, 
 
-Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
+I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter Bot In Your Group ..
+
+Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...🤓
+
+⚠️More Help Check Help Button Below**
+
+©️MᴀɪɴᴛᴀɪɴᴇD Bʏ [Jᴏᴇʟ](https://t.me/stephennedumpally)
 """
 START_MSG = environ.get('START_MSG', default_start_msg)
 
