@@ -54,15 +54,20 @@ Nᴏᴛʜɪɴɢ Tᴏ Sᴀʏ
 """
 
 ABOUT = """
-➥ Name : Auto Filter With IMDB
+○ Nᴀᴍᴇ :  Lᴀᴜʀᴇɴ Gᴇʀᴍᴀɴ
     
-➥ Credits : Subin
+○ Mʏ Dᴇᴠ 😎 : [Jᴏᴇʟ](https://t.me/stephennedumpally)
 
-➥ Editing : [Muhammed RK](t.me/Mrk_YT)
+○ Lᴀɴɢᴜᴀɢᴇ : Pʏᴛʜᴏɴ 3
 
-➥ Language : Python3
+○ Lɪʙʀᴀʀʏ : [Pʏʀᴏɢʀᴀᴍ Aᴄʏɴᴄɪᴏ](https://docs.pyrogram.org/)
 
-➥ Library : Pyrogram Asyncio 1.13.0
+○ Cʀᴇᴅɪᴛs : Eᴠᴇʀʏᴏɴᴇ Iɴ Tʜɪs Jᴏᴜʀɴᴇʏ
 
-➥ Source Code : [Click Me](https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot)
+○ Sᴇʀᴠᴇʀ : [Hᴇʀᴏᴋᴜ](https://herokuapp.com/)
+
+○ Dᴀᴛᴀʙᴀsᴇ : [Mᴏɴɢᴏ DB](https://www.mongodb.com/)
+
+○ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : [Cʟɪᴄᴋ Hᴇʀᴇ](https://t.me/AdhavaaBiriyaniKittiyalo)
+
 """
