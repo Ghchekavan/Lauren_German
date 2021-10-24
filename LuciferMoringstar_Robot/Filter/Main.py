@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 import re
 from pyrogram.errors import UserNotParticipant
 from LuciferMoringstar_Robot import get_filter_results, get_file_details, is_subscribed, get_poster
-from LuciferMoringstar_Robot import RATING, GENRES, HELP, ABOUT
+from LuciferMoringstar_Robot import RATING, GENRES, HELP, ABOUT, START_MSG
 import random
 BUTTONS = {}
 BOT = {}
