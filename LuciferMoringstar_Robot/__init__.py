@@ -21,7 +21,7 @@ Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provid
 
 ©️MᴀɪɴᴛᴀɪɴᴇD Bʏ [Jᴏᴇʟ](https://t.me/stephennedumpally)
 HELP = """
-🙋 Hᴇʟᴏᴏᴏ {} {message.from_user.mention}
+🙋 Hᴇʟᴏᴏᴏ {}
 
 ○ Iᴛs Nᴏᴛ Cᴏᴍᴘʟɪᴄᴀᴛᴇᴅ...🤓
 
