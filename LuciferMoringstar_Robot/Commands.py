@@ -127,7 +127,7 @@ async def start(bot, message):
         )
     else:
         await message.reply_photo(
-            photo=f"{random.choice(PHOTO)}"
+            photo=f"{random.choice(PHOTO)}",
            ​ ​START_MSG​.​format​(​message​.​from_user​.​mention),
             parse_mode="Markdown",
             disable_web_page_preview=True,
