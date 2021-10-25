@@ -94,7 +94,7 @@ def get_reply_markup(query):
         ],[
         InlineKeyboardButton('How to use me 🤔', url='t.me/')
         ],[
-        InlineKeyboardButton ('About 🤠', callback_data='about')
+        InlineKeyboardButton ('About 🤠', callback_data='about'),
         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat=query)
         ]]
     return InlineKeyboardMarkup(buttons)
